@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: DarkSlateGray;
+}
+#top-container {
+  background-color: aliceblue;
+  padding-top: 100px;
+  padding-bottom:0;
+  position: relative;
+  height: 621px;
+}
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+.mountain {
+  position: absolute;
+  top: 364px;
+  left: 500px;
+
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+}
+h2 {
+  color: LightSeaGreen;
+}
+h3 {
+  color: SlateGray;
+}
+h4 {
+  color: CornflowerBlue;
+}
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: ghostwhite;
+  border-width: 5px;
+  width: 5%;
+  margin: 80px auto;
+}
+.profile-img {
+  height: 250px;
+  width: 300px;
+  border-radius: 100%;
+}
+.intro {
+  width: 50%;
+  margin: auto;
+}
+#middle-container {
+  padding-top: 100px;
+}
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+.skill-1 {
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-right: 100px;
+}
+.skill-2 {
+  height: 200px;
+  width: auto;
+  float:right;
+  margin-left: 100px;
+}
+.skill-3 {
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-right: 100px;
+}
+.contact{
+  width: 40%;
+  margin: 60px auto 100px;
+}
+.myButton {
+	box-shadow: 0px 10px 4px -7px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#bottom-container {
+  padding: 50px 0 20px;
+  background-color: DarkTurquoise;
+}
+.contact-link {
+  text-decoration:none;
+  margin: 10px 15px;
+  color: black;
+  font-family: 'Special Elite', cursive;
+}
+.contact-link:hover {
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+.copyright {
+  color: snow;
+}

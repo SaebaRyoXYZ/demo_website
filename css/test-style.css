@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Nixie One', cursive;
+}
+header {
+  background-image: linear-gradient(0deg, #351723, white, white);
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 100px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.name {
+  font-size: 32px;
+  font-family: 'Special Elite', cursive;
+}
+.mid {
+  background-image: url(../assets/featured-bg2.png);
+  background-position-x: center;
+  background-position-y: -80px;
+  background-size: initial;
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgba(84, 36, 55, 0.9);
+  color: white;
+}
